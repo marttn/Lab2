@@ -1,0 +1,26 @@
+<p>recipe-list works!</p>
+<table class ="table" *ngIf="recipes">
+  <tr *ngFor="let r of (recipes)" (click)="onSelect(r)">
+    <td>
+    {{r.name}}
+    </td>
+    <td>
+    {{r.createdDate}}
+    </td>
+    <td>
+    picture
+    </td>
+    <td>
+      {{r.category}}
+    </td>
+    <td>
+      {{r.shortDesc}}
+    </td>
+    <td>
+    <button class= 'btn btn-info' [routerLink]="[r.id, 'edit']"> Update</button>
+    </td>
+    <td>
+   <button class= 'btn btn-info' (click)="deleteRecipe(r)"> Delete</button>
+    </td>
+  </tr>
+</table>

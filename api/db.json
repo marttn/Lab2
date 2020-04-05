@@ -1,0 +1,84 @@
+{
+  "recipes-book": [
+    {
+      "id": 1,
+      "name": "Borscht",
+      "category": "Soups",
+      "shortDesc": "In a saucepan, bring the beets, carrots, onion, water and salt to a boil. Reduce heat; cover and simmer for 20 minutes. Add broth, cabbage and butter; simmer, uncovered, for 15 minutes. Just before serving, stir in lemon juice. If desired, top each serving with a sour cream and chives or dill.",
+      "longDesc": "In a saucepan, bring the beets, carrots, onion, water and salt to a boil. Reduce heat; cover and simmer for 20 minutes. Add broth, cabbage and butter; simmer, uncovered, for 15 minutes. Just before serving, stir in lemon juice. If desired, top each serving with a sour cream and chives or dill.\nNutrition Facts\n1 cup: 48 calories, 2g fat (1g saturated fat), 4mg cholesterol, 375mg sodium, 7g carbohydrate (5g sugars, 2g fiber), 1g protein. Diabetic Exchanges: 1 vegetable, 1/2 fat.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "category": "Fast food",
+      "shortDesc": "Cook beef and onion in a large skillet over medium heat until meat is no longer pink; drain and set aside.\nPlace crust on an ungreased 12-in. pizza pan. Spread with pizza sauce. Top with beef mixture, bacon, pickles and cheeses. Sprinkle with pizza seasoning. Bake at 450° for 8-10 minutes or until cheese is melted.",
+      "longDesc": "Cook beef and onion in a large skillet over medium heat until meat is no longer pink; drain and set aside.\nPlace crust on an ungreased 12-in. pizza pan. Spread with pizza sauce. Top with beef mixture, bacon, pickles and cheeses. Sprinkle with pizza seasoning. Bake at 450° for 8-10 minutes or until cheese is melted.\nNutrition Facts\n2 each: 841 calories, 43g fat (22g saturated fat), 138mg cholesterol, 1989mg sodium, 60g carbohydrate (5g sugars, 2g fiber), 53g protein.",
+      "createdDate": "27-12-2019"
+    },
+    {
+      "id": 3,
+      "name": "Lasagna",
+      "category": "Pasta",
+      "shortDesc": "In a large skillet, cook beef over medium heat until no longer pink; drain. In a greased 2-1/2-qt. baking dish, layer a third of the spaghetti sauce, half of the ravioli and beef, and 1/2 cup cheese; repeat layers. Top with remaining sauce and cheese.\nCover and bake at 400° until heated through, 40-45 minutes. If desired, top with basil to serve.",
+      "longDesc": "In a large skillet, cook beef over medium heat until no longer pink; drain. In a greased 2-1/2-qt. baking dish, layer a third of the spaghetti sauce, half of the ravioli and beef, and 1/2 cup cheese; repeat layers. Top with remaining sauce and cheese.\nCover and bake at 400° until heated through, 40-45 minutes. If desired, top with basil to serve.\nNutrition Facts\n1 cup: 438 calories, 18g fat (7g saturated fat), 77mg cholesterol, 1178mg sodium, 42g carbohydrate (7g sugars, 5g fiber), 26g protein.",
+      "createdDate": "30-09-2018"
+    },
+    {
+      "id": 4,
+      "name": "Vanilla Ice Cream",
+      "category": "Desserts",
+      "shortDesc": "Combine all ingredients, stirring to dissolve sugar completely. Fill cylinder of ice cream maker no more than two-thirds full; freeze according to manufacturer's directions. (Refrigerate any remaining mixture until ready to freeze.) Serve immediately or store in covered containers in freezer.",
+      "longDesc": "Combine all ingredients, stirring to dissolve sugar completely. Fill cylinder of ice cream maker no more than two-thirds full; freeze according to manufacturer's directions. (Refrigerate any remaining mixture until ready to freeze.) Serve immediately or store in covered containers in freezer.\nNutrition Facts\n1/2 cup: 308 calories, 22g fat (14g saturated fat), 78mg cholesterol, 37mg sodium, 23g carbohydrate (23g sugars, 0 fiber), 3g protein.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 5,
+      "name": "Caesar",
+      "category": "Salads",
+      "shortDesc": "Sprinkle chicken with salt and pepper. In a large skillet, heat oil over medium-high heat. Brown chicken on one side. Turn chicken; add tomato and salad dressing to skillet. Cook, covered, until a thermometer inserted in chicken reads 165°, 6-8 minutes. Sprinkle with cheese.",
+      "longDesc": "Sprinkle chicken with salt and pepper. In a large skillet, heat oil over medium-high heat. Brown chicken on one side. Turn chicken; add tomato and salad dressing to skillet. Cook, covered, until a thermometer inserted in chicken reads 165°, 6-8 minutes. Sprinkle with cheese.\nNutrition Facts\n1 chicken breast half with 3 tablespoons tomato mixture: 262 calories, 16g fat (4g saturated fat), 76mg cholesterol, 664mg sodium, 2g carbohydrate (1g sugars, 1g fiber), 26g protein.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 6,
+      "name": "Classic Chocolate Cake",
+      "category": "Desserts",
+      "shortDesc": "In a bowl, cream butter and sugar until light and fluffy, 5-7 minutes. Add eggs, 1 at a time, beating well after each addition. Combine flour, cocoa, baking soda and salt; add to creamed mixture alternately with milk, beating until smooth after each addition. Pour batter into a greased and floured 13x9-in. baking pan.\nBake at 350° until a toothpick inserted in center comes out clean, 35-40 minutes. Cool on a wire rack. When cake is cool, dust with confectioners' sugar or frost with your favorite frosting.",
+      "longDesc": "In a bowl, cream butter and sugar until light and fluffy, 5-7 minutes. Add eggs, 1 at a time, beating well after each addition. Combine flour, cocoa, baking soda and salt; add to creamed mixture alternately with milk, beating until smooth after each addition. Pour batter into a greased and floured 13x9-in. baking pan.\nBake at 350° until a toothpick inserted in center comes out clean, 35-40 minutes. Cool on a wire rack. When cake is cool, dust with confectioners' sugar or frost with your favorite frosting.\nNutrition Facts\n1 piece: 257 calories, 10g fat (6g saturated fat), 67mg cholesterol, 368mg sodium, 38g carbohydrate (23g sugars, 1g fiber), 4g protein.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 7,
+      "name": "Potato soup",
+      "category": "Soups",
+      "shortDesc": "In a large saucepan, cook bacon over medium heat until crisp, stirring occasionally; drain drippings. Add vegetables, seasonings and broth; bring to a boil. Reduce heat; simmer, covered, until potatoes are tender, 10-15 minutes.\nMix flour and milk until smooth; stir into soup. Bring to a boil, stirring constantly; cook and stir until thickened, about 2 minutes. Stir in cheese until melted. If desired, serve with green onions.",
+      "longDesc": "In a large saucepan, cook bacon over medium heat until crisp, stirring occasionally; drain drippings. Add vegetables, seasonings and broth; bring to a boil. Reduce heat; simmer, covered, until potatoes are tender, 10-15 minutes.\nMix flour and milk until smooth; stir into soup. Bring to a boil, stirring constantly; cook and stir until thickened, about 2 minutes. Stir in cheese until melted. If desired, serve with green onions.\nNutrition Facts\n1 cup: 250 calories, 13g fat (7g saturated fat), 35mg cholesterol, 823mg sodium, 22g carbohydrate (8g sugars, 2g fiber), 12g protein.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 8,
+      "name": "Garlic-Buttered Pasta",
+      "category": "soups",
+      "shortDesc": "Cook pasta according to package directions. Meanwhile, in a large saucepan, saute garlic in butter. Remove from the heat. Drain pasta; add to garlic butter. Stir in the Parmesan cheese, parsley, salt and pepper; toss to coat.",
+      "longDesc": "Cook pasta according to package directions. Meanwhile, in a large saucepan, saute garlic in butter. Remove from the heat. Drain pasta; add to garlic butter. Stir in the Parmesan cheese, parsley, salt and pepper; toss to coat.\nNutrition Facts\n3/4 cup: 400 calories, 25g fat (15g saturated fat), 65mg cholesterol, 477mg sodium, 36g carbohydrate (2g sugars, 1g fiber), 8g protein.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 9,
+      "name": "Crispy Fried Chicken",
+      "category": "Fast food",
+      "shortDesc": "In a large shallow dish, combine 2-2/3 cups flour, 2 tablespoons garlic salt, 1 tablespoon paprika, 2-1/2 teaspoons pepper and 2-1/2 teaspoons poultry seasoning. In another shallow dish, beat eggs and 1-1/2 cups water; add 1 teaspoon salt and the remaining 1-1/3 cup flour and 1/2 teaspoon pepper. Dip chicken in egg mixture, then place in the flour mixture, a few pieces at a time. Turn to coat.\nIn a deep-fat fryer, heat oil to 375°. Working in batches, fry chicken, several pieces at a time, until golden brown and a thermometer inserted into chicken reads 165°, about 7-8 minutes on each side. Drain on paper towels.",
+      "longDesc": "In a large shallow dish, combine 2-2/3 cups flour, 2 tablespoons garlic salt, 1 tablespoon paprika, 2-1/2 teaspoons pepper and 2-1/2 teaspoons poultry seasoning. In another shallow dish, beat eggs and 1-1/2 cups water; add 1 teaspoon salt and the remaining 1-1/3 cup flour and 1/2 teaspoon pepper. Dip chicken in egg mixture, then place in the flour mixture, a few pieces at a time. Turn to coat.\nIn a deep-fat fryer, heat oil to 375°. Working in batches, fry chicken, several pieces at a time, until golden brown and a thermometer inserted into chicken reads 165°, about 7-8 minutes on each side. Drain on paper towels.\nNutrition Facts\n5 ounces cooked chicken: 543 calories, 33g fat (7g saturated fat), 137mg cholesterol, 798mg sodium, 17g carbohydrate (0 sugars, 1g fiber), 41g protein.",
+      "createdDate": "10-01-2020"
+    },
+    {
+      "id": 10,
+      "name": "Cool Beans Salad",
+      "category": "Salads",
+      "shortDesc": "In a large bowl, whisk the first eight ingredients. Add the remaining ingredients; toss to coat. Chill until serving.",
+      "longDesc": "In a large bowl, whisk the first eight ingredients. Add the remaining ingredients; toss to coat. Chill until serving.\nNutrition Facts\n1-1/3 cups: 440 calories, 19g fat (3g saturated fat), 0 cholesterol, 659mg sodium, 58g carbohydrate (5g sugars, 8g fiber), 12g protein.",
+      "createdDate": "10-01-2020"
+    }
+  ]
+}
