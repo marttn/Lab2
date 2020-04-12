@@ -1,37 +1,43 @@
-import { Component, OnInit } from '@angular/core';
-import {Recipe} from '../../recipe';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+
+import { Recipe } from '../recipe.model';
 import {GetRecipesService} from '../../get-recipes.service';
+import {Subscription} from 'rxjs';
+import {SortPipe} from '../../sort.pipe';
 
 @Component({
   selector: 'app-recipe-list',
-  templateUrl: './recipe-list.component.html',
-  styleUrls: ['./recipe-list.component.css']
+  templateUrl: './recipe-list.component.html'
 })
-export class RecipeListComponent implements OnInit {
+export class RecipeListComponent implements OnInit, OnDestroy {
+  recipes: Recipe[];
+  subscription: Subscription;
+  items = [];
+  searchText;
+  selected = [];
+  categories: string[];
+  selectedCategory: [];
 
-  title = 'recipe list';
-  recipes: Recipe[] = [];
-  constructor(private recipesService: GetRecipesService) { }
+  constructor(private recipeService: GetRecipesService) {
+  }
 
-  private getRecipes() {
-    this.recipesService.getAllRecipes().subscribe(
-      data => {
-      this.recipes = data;
+  ngOnInit() {
+    this.subscription = this.recipeService.getAllRecipes().subscribe(
+        (recipes) => {
+          this.recipes = recipes;
+        }
+      );
+  }
+
+
+  ngOnDestroy() {
+    this.subscription?.unsubscribe();
+  }
+
+  sort() {
+    this.recipes.sort((a, b) => {
+      return +new Date(b.createdDate) - +new Date(a.createdDate);
     });
-  }
-  ngOnInit(): void {
-    setTimeout(() => this.getRecipes(), 100);
-  }
-
-  updateRecipe(r: Recipe) {
-
-  }
-
-  deleteRecipe(r: Recipe) {
-
-  }
-
-  onSelect(r: Recipe) {
-
   }
 }

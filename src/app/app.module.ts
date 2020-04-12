@@ -7,33 +7,38 @@ import {RecipeDetailsComponent} from './recipes/recipe-details/recipe-details.co
 import {RecipeEditComponent} from './recipes/recipe-edit/recipe-edit.component';
 import {HttpClientModule} from '@angular/common/http';
 import {RecipesComponent} from './recipes/recipes.component';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {RecipeItemComponent} from './recipes/recipe-list/recipe-item/recipe-item.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import {FilterPipe} from './filter.pipe';
+import {SortPipe} from './sort.pipe';
 
-const appRoutes: Routes = [
-  {
-    path: 'recipes', component: RecipesComponent, children: [
-      {path: '', component: RecipeListComponent},
-      {path: ':id', component: RecipeDetailsComponent},
-      {path: ':id/edit', component: RecipeEditComponent}
-    ]
-  },
-  {path: '', redirectTo: '/recipes', pathMatch: 'full'},
-];
-
+const appRoutes: Routes =
+  [
+    {path: 'recipes', component: RecipesComponent},
+    // {path: 'recipes', component: RecipeStartComponent},
+    {path: 'recipes/add', component: RecipeEditComponent},
+    {path: 'recipes/:id', component: RecipeDetailsComponent},
+    {path: 'recipes/:id/edit', component: RecipeEditComponent},
+    {path: '', redirectTo: '/recipes', pathMatch: 'full'},
+  ];
 @NgModule({
   declarations: [
     AppComponent,
     RecipeListComponent,
-    RecipeDetailsComponent,
     RecipeEditComponent,
-    RecipesComponent
+    RecipesComponent,
+    RecipeItemComponent,
+    RecipeDetailsComponent,
+    FilterPipe,
+    SortPipe
   ],
   imports: [
     BrowserModule,
     HttpClientModule, RouterModule.forRoot(
       appRoutes,
       {enableTracing: true} // <-- debugging purposes only
-    ), ReactiveFormsModule
+    ), ReactiveFormsModule, FormsModule, Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

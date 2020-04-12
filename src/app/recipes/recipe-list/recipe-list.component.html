@@ -1,26 +1,27 @@
-<p>recipe-list works!</p>
-<table class ="table" *ngIf="recipes">
-  <tr *ngFor="let r of (recipes)" (click)="onSelect(r)">
-    <td>
-    {{r.name}}
-    </td>
-    <td>
-    {{r.createdDate}}
-    </td>
-    <td>
-    picture
-    </td>
-    <td>
-      {{r.category}}
-    </td>
-    <td>
-      {{r.shortDesc}}
-    </td>
-    <td>
-    <button class= 'btn btn-info' [routerLink]="[r.id, 'edit']"> Update</button>
-    </td>
-    <td>
-   <button class= 'btn btn-info' (click)="deleteRecipe(r)"> Delete</button>
-    </td>
-  </tr>
-</table>
+<div class="row">
+  <div class="col-xs-12">
+    <a [routerLink]="['add']" class="btn btn-success">New Recipe</a>
+  </div>
+  <div class="search">
+    <input [(ngModel)]="searchText" placeholder="search text goes here">
+  </div>
+  <div>
+    <button  class="btn btn-link"  (click)="sort()">Sort desc</button>
+  </div>
+</div>
+<hr>
+<div class="row"> <!-- sortBy: 'desc':'name'-->
+  <div class="col-xs-12">
+    <app-recipe-item
+      *ngFor="let recipeEl of recipes | filter : searchText"
+      [recipe]="recipeEl"></app-recipe-item>
+  </div>
+</div>
+<style>
+  .search {
+    max-width: 500px;
+    padding-bottom: 50px;
+    margin:auto;
+  }
+</style>
+
